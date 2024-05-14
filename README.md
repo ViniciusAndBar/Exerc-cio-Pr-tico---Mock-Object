@@ -1,48 +1,26 @@
-## Execução do projeto
+## Descrição
 
-## Utilizando o Prompt de Comando:
-Abra o Prompt de Comando digitando “cmd” na caixa de pesquisa do menu Iniciar.
-```bash
-Digite “python –version” e pressione Enter.
-```
-O prompt de comando exibirá a versão do Python instalada no seu sistema.
+A classe CustomStack implementa uma pilha com funcionalidades básicas, como push, pop, peek, is_empty e size. Além disso, o projeto inclui a classe NumberAscOrder, que pode ordenar os números armazenados na pilha em ordem ascendente.
 
+## Execução do Projeto
 
-#### 1. Criação do ambiente virtual.
-Abra um terminal dentro da pasta do projeto e execute o comando abaixo.
+### Utilizando o Terminal:
+
+Siga as instruções abaixo para executar o projeto no seu ambiente local.
+
+#### 1. Criação do Ambiente Virtual:
+
+Abra um terminal na raiz do projeto e execute o seguinte comando para criar um ambiente virtual:
+
 ```bash
 python -m venv venv
 ```
 
-#### 2. Ativando o ambiente virtual.
-Para ativar o ambiente virtual execute o comando abaixo.
+### Ativação do Ambiente Virtual:
+
+Ative o ambiente virtual com o comando apropriado para o seu sistema operacional:
+
+#### No Windows:
+
 ```bash
 .\venv\Scripts\activate
-```
-
-#### 3. Instalação das dependencias.
-Para atualizar o PIP para a versão mais recente
-```bash
-python.exe -m pip install --upgrade pip
-```
-
-#### 4. Instalação das dependencias.
-Para instalar todas as dependencias do projeto execute o comando abaixo.
-```bash
-pip install -r requirements.txt
-```
-
-#### 5. Instalação das dependencias.
-Para instalar todas as dependencias do projeto execute o comando abaixo.
-```bash
-pytest --cov .\test\
-```
-
-#### Resultado
-
----------- coverage: platform win32, python 3.11.3-final-0 -----------
-| Arquivo                   | Linhas de Código | Linhas Ausentes | Cobertura |
-|---------------------------|------------------|-----------------|-----------|
-| test\__init__.py          | 0                | 0               | 100%      |
-| test\custom_stack_test.py | 70               | 0               | 100%      |
-| **Total**                 | **70**           | **0**           | **100%**  |
