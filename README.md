@@ -57,4 +57,6 @@ Após a execução dos testes, você verá um resumo da cobertura do código:
 | test\custom_stack_test.py | 55               | 0               | 100%      |
 | **Total**                 | **55**           | **0**           | **100%**  |
 
+(Passou em 7)
+
 
